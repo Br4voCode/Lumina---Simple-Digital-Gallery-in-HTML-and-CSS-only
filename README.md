@@ -1,6 +1,6 @@
 # Lumina - Simple Digital Gallery (HTML & CSS only)
 
-![Lumina Logo](assets/images/icons/android-chrome-192x192.png)
+![Lumina Logo](assets/icons/android-chrome-192x192.png)
 
 A minimalist **photo gallery website** built entirely with **HTML and CSS**, designed to be fast, responsive, and easy to customize. Lumina is perfect for showcasing digital photos in a clean and modern interface.
 
