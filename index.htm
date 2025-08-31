@@ -1,192 +1,255 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#121212" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#121212" />
 
-  <title>Lumina | Un espacio para tus fotos</title>
+    <title>Lumina | Un espacio para tus fotos</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
 
-  <!-- Estilos -->
-  <link rel="stylesheet" href="css/stylesheet.css" />
-</head>
-<body>
-  <!-- Encabezado -->
-  <header>
-    <h1>Lumina</h1>
-    <h2>Tus imágenes en buenas manos</h2>
-  </header>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>Lumina</h1>
+      <h2>Tus imágenes en buenas manos</h2>
+    </header>
 
-  <!-- Navegación -->
-  <nav>
-    <!-- Menú izquierdo -->
-    <ul class="nav-left">
-      <li>
-        <a href="#" class="user-box" tabindex="1">
-          <img src="assets/icons/user.svg" alt="Imagen de usuario" />
-          <span>Usuario</span>
-        </a>
-      </li>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Mi Galería</a></li>
-    </ul>
+    <!-- Navegación -->
+    <nav>
+      <!-- Menú izquierdo -->
+      <ul class="nav-left">
+        <li>
+          <a href="#" class="user-box" tabindex="1">
+            <img src="assets/icons/user.svg" alt="Imagen de usuario" />
+            <span>Usuario</span>
+          </a>
+        </li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Mi Galería</a></li>
+      </ul>
 
-    <!-- Menú derecho -->
-    <ul class="nav-right">
-      <li>
-        <button id="theme-button" class="icon-button" title="Cambiar tema">
-          <img src="assets/icons/modo-oscuro.svg" alt="Cambiar tema" />
-        </button>
-      </li>
-      <li>
-        <button class="icon-button" title="Ajustes">
-          <img src="assets/icons/options.svg" alt="Opciones" />
-        </button>
-      </li>
-    </ul>
-  </nav>
+      <!-- Menú derecho -->
+      <ul class="nav-right">
+        <li>
+          <button id="theme-button" class="icon-button" title="Cambiar tema">
+            <img src="assets/icons/modo-oscuro.svg" alt="Cambiar tema" />
+          </button>
+        </li>
+        <li>
+          <button class="icon-button" title="Ajustes">
+            <img src="assets/icons/options.svg" alt="Opciones" />
+          </button>
+        </li>
+      </ul>
+    </nav>
 
-  <!-- Contenido principal -->
-  <main class="gallery-container">
-    <!-- Controles de galería -->
-    <div class="gallery-controls">
-      <!-- Barra de búsqueda -->
-      <input 
-        type="text" 
-        class="search-bar" 
-        placeholder="Buscar fotos..." 
-      />
+    <!-- Contenido principal -->
+    <main class="gallery-container">
+      <!-- Controles de galería -->
+      <div class="gallery-controls">
+        <!-- Barra de búsqueda -->
+        <input type="text" class="search-bar" placeholder="Buscar fotos..." />
 
-      <!-- Etiquetas -->
-      <div class="tags">
-        <button class="tag active">Todo</button>
-        <button class="tag">Naturaleza</button>
-        <button class="tag">Ciudades</button>
-        <button class="tag">Personas</button>
-        <button class="tag">Arte</button>
-        <button class="tag">Cine</button>
-        <button class="tag">Juegos</button>
-        <button class="tag">Anime</button>
-        <button class="tag">Series</button>
-      </div>
-    </div>
-
-    <!-- Galería de imágenes -->
-    <section class="gallery">
-      <div class="card">
-        <img src="assets/images/superman-2025-3840x2160-20308.jpg" alt="Foto 1" />
-        <p>Superman 2025</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/deadpool-wolverine-3840x2160-17170.jpg" alt="Foto 2" />
-        <p>Deadpool & Wolverine</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/furiosa-a-mad-max-3840x2160-16776.jpg" alt="Foto 3" />
-        <p>Furiosa</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/guts-artwork-3840x2160-21418.jpg" alt="Foto 4" />
-        <p>Berserk</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/hiccup-astrid-how-3840x2160-20030.jpg" alt="Foto 5" />
-        <p>How to Train your Dragon</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/hollow-knight-video-3840x2160-19939.jpg" alt="Foto 6" />
-        <p>Hollow Knight</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/sung-jinwoo-dark-3840x2160-21604.jpg" alt="Foto 7" />
-        <p>Solo Leveling</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/metal-gear-solid-3840x2160-18325.jpg" alt="Foto 8" />
-        <p>Metal Gear</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/wind-breaker-5k-3840x2160-18815.jpg" alt="Foto 9" />
-        <p>Wind Breaker</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/jinx-arcane-neon-3840x2160-19860.jpg" alt="Foto 10" />
-        <p>Jinx Arcane</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/jude-bellingham-ea-3840x2160-17867.jpg" alt="Foto 11" />
-        <p>FC 25</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/elden-ring-3840x2160-20375.jpg" alt="Foto 12" />
-        <p>Elden Ring</p>
-      </div>
-    </section>
-  </main>
-
-  <!-- Script: cambio de tema -->
-  <script>
-    const btn = document.getElementById("theme-button");
-    btn.addEventListener("click", () => {
-      document.body.classList.toggle("dark");
-    });
-  </script>
-
-  <!-- Pie de página -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <!-- Logo y descripción -->
-      <div class="footer-about">        
-        <h3>Lumina</h3>
-        <img id="logo-footer" src="assets/icons/favicon.svg" alt="Logo" />
-        <p>
-          Un espacio seguro para guardar, organizar y compartir tus fotos favoritas.
-        </p>
+        <!-- Etiquetas -->
+        <div class="tags">
+          <button class="tag active">Todo</button>
+          <button class="tag">Naturaleza</button>
+          <button class="tag">Ciudades</button>
+          <button class="tag">Personas</button>
+          <button class="tag">Arte</button>
+          <button class="tag">Cine</button>
+          <button class="tag">Juegos</button>
+          <button class="tag">Anime</button>
+          <button class="tag">Series</button>
+        </div>
       </div>
 
-      <!-- Enlaces rápidos -->
-      <div class="footer-links">
-        <h4>Enlaces</h4>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Mi Galería</a></li>
-          <li><a href="#">Subir Foto</a></li>
-          <li><a href="#">Perfil</a></li>
-          <li><a href="#">Ayuda</a></li>
-        </ul>
+      <!-- Galería de imágenes -->
+      <section class="gallery">
+        <div class="card">
+          <img
+            src="assets/images/thumbs/superman-2025-thumb.jpg"
+            alt="Foto 1"
+            loading="lazy"
+          />
+          <p>Superman 2025</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/deadpool-wolverine-thumb.jpg"
+            alt="Foto 2"
+            loading="lazy"
+          />
+          <p>Deadpool & Wolverine</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/furiosa-a-mad-max-thumb.jpg"
+            alt="Foto 3"
+            loading="lazy"
+          />
+          <p>Furiosa</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/guts-artwork-thumb.jpg"
+            alt="Foto 4"
+            loading="lazy"
+          />
+          <p>Berserk</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/hiccup-astrid-how-thumb.jpg"
+            alt="Foto 5"
+            loading="lazy"
+          />
+          <p>How to Train your Dragon</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/hollow-knight-video-thumb.jpg"
+            alt="Foto 6"
+            loading="lazy"
+          />
+          <p>Hollow Knight</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/sung-jinwoo-dark-thumb.jpg"
+            alt="Foto 7"
+            loading="lazy"
+          />
+          <p>Solo Leveling</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/metal-gear-solid-thumb.jpg"
+            alt="Foto 8"
+            loading="lazy"
+          />
+          <p>Metal Gear</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/wind-breaker-thumb.jpg"
+            alt="Foto 9"
+            loading="lazy"
+          />
+          <p>Wind Breaker</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/jinx-arcane-neon-thumb.jpg"
+            alt="Foto 10"
+            loading="lazy"
+          />
+          <p>Jinx Arcane</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/jude-bellingham-ea-thumb.jpg"
+            alt="Foto 11"
+            loading="lazy"
+          />
+          <p>FC 25</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/thumbs/elden-ring-thumb.jpg"
+            alt="Foto 12"
+            loading="lazy"
+          />
+          <p>Elden Ring</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Script: cambio de tema -->
+    <script>
+      const btn = document.getElementById("theme-button");
+      btn.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+
+    <!-- Pie de página -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Logo y descripción -->
+        <div class="footer-about">
+          <h3>Lumina</h3>
+          <img id="logo-footer" src="assets/icons/favicon.svg" alt="Logo" />
+          <p>
+            Un espacio seguro para guardar, organizar y compartir tus fotos
+            favoritas.
+          </p>
+        </div>
+
+        <!-- Enlaces rápidos -->
+        <div class="footer-links">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Mi Galería</a></li>
+            <li><a href="#">Subir Foto</a></li>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Ayuda</a></li>
+          </ul>
+        </div>
+
+        <!-- Información de contacto -->
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <ul>
+            <li>
+              Email: <a href="mailto:soporte@lumina.com">soporte@lumina.com</a>
+            </li>
+            <li>Tel: +34 600 123 456</li>
+            <li>Ubicación: Madrid, España</li>
+          </ul>
+        </div>
+
+        <!-- Redes sociales -->
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+          <a href="#"
+            ><img src="assets/icons/instagram.svg" alt="Instagram"
+          /></a>
+          <a href="#"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+        </div>
       </div>
 
-      <!-- Información de contacto -->
-      <div class="footer-contact">
-        <h4>Contacto</h4>
-        <ul>
-          <li>Email: <a href="mailto:soporte@lumina.com">soporte@lumina.com</a></li>
-          <li>Tel: +34 600 123 456</li>
-          <li>Ubicación: Madrid, España</li>
-        </ul>
+      <!-- Derechos de autor -->
+      <div class="footer-bottom">
+        <p>&copy; 2025 Lumina. Todos los derechos reservados.</p>
       </div>
-
-      <!-- Redes sociales -->
-      <div class="footer-social">
-        <h4>Síguenos</h4>
-        <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
-        <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
-        <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
-        <a href="#"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
-      </div>
-    </div>
-
-    <!-- Derechos de autor -->
-    <div class="footer-bottom">
-      <p>&copy; 2025 Lumina. Todos los derechos reservados.</p>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
