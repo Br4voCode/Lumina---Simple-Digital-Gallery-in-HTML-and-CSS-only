@@ -1,6 +1,6 @@
 # Lumina - Simple Digital Gallery (HTML & CSS only)
 
-![Lumina Banner](assets/images/header-bg.jpg)
+![Lumina Logo](assets/images/icons/android-chrome-192x192.png)
 
 A minimalist **photo gallery website** built entirely with **HTML and CSS**, designed to be fast, responsive, and easy to customize. Lumina is perfect for showcasing digital photos in a clean and modern interface.
 
@@ -22,8 +22,8 @@ A minimalist **photo gallery website** built entirely with **HTML and CSS**, des
 - 🌙 **Dark mode** support
 - 🖼️ Optimized assets (icons and images stored in `assets/`)
 - 📱 Mobile-friendly design
-- ⚡ Built with **pure HTML & CSS** (no frameworks, no JavaScript)
-- 📑 Includes footer with useful information
+- ⚡ Built with **pure HTML and CSS** (no frameworks, hardly any JavaScript)
+- 📑 Includes footer with useful information (just as an example)
 
 ---
 
@@ -63,5 +63,5 @@ Lumina/
 
 ## 👤 Autor
 
-Project created by **[Your Name]** ✨ 
+Project created by **[Br4voCode]** ✨ 
 If you want to contribute improvements, make a **fork** and send a **pull request**!
